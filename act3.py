@@ -1,0 +1,15 @@
+#ACTIVITY 3
+#JUSTINE IDOS -CPE 1
+def check_number():
+    num = int(input("Enter a number: "))
+    if num % 2 == 0:
+        print(f"{num} is an Even number.")
+    else:
+        print(f"{num} is an Odd number.")
+    user_input = input("Do you want to check another number? (yes/no): ")
+    if user_input == 'yes' or user_input == 'y':
+        check_number()
+    else:
+        print("Number checking done.")
+    
+check_number
