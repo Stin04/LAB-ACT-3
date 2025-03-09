@@ -12,4 +12,4 @@ def check_number():
     else:
         print("Number checking done.")
     
-check_number
+check_number()
